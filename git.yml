@@ -1,7 +1,0 @@
----
-- hosts: tomcat
-  tasks:
-    - name: installing packages
-      apt:
-        name: git
-        state: present
